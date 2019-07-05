@@ -31,8 +31,8 @@ class MovieListTableViewController: UITableViewController {
         cell.movieRating.text = "\(movie.voteAverage)"
         cell.movieOverview.text = movie.overview
         MovieController.fetchImage(fromData: movie.imagePath) { (imageData) in
-            if imageData != nil{
-                guard let image = UIImage(data: imageData) else {return}
+            guard let image = UIImage(data: imageData) else {return}
+            DispatchQueue.main.async {
                 cell.movieImage.image = image
             }
         }
@@ -43,8 +43,10 @@ class MovieListTableViewController: UITableViewController {
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "showMovieDetails"{
+            guard let destination = segue.destination as? MovieDetailsViewController, let indexPath = tableView.indexPathForSelectedRow else {return}
+            destination.movie = movies[indexPath.row]
+        }
     }
 }
 extension MovieListTableViewController: UISearchBarDelegate{

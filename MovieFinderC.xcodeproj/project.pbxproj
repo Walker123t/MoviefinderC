@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0462C25A22CF9E5F00DFAE7B /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C25922CF9E5F00DFAE7B /* MovieListTableViewController.swift */; };
 		0462C25C22CFAE1600DFAE7B /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C25B22CFAE1600DFAE7B /* MovieTableViewCell.swift */; };
+		0462C25E22CFBBE600DFAE7B /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462C25D22CFBBE600DFAE7B /* MovieDetailsViewController.swift */; };
 		0496F58622CEA1D200DB0398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496F58522CEA1D200DB0398 /* AppDelegate.m */; };
 		0496F58C22CEA1D200DB0398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0496F58A22CEA1D200DB0398 /* Main.storyboard */; };
 		0496F58E22CEA1D500DB0398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0496F58D22CEA1D500DB0398 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		0462C25822CF9E5F00DFAE7B /* MovieFinderC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieFinderC-Bridging-Header.h"; sourceTree = "<group>"; };
 		0462C25922CF9E5F00DFAE7B /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
 		0462C25B22CFAE1600DFAE7B /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		0462C25D22CFBBE600DFAE7B /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		0496F58122CEA1D200DB0398 /* MovieFinderC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieFinderC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0496F58422CEA1D200DB0398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0496F58522CEA1D200DB0398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				0462C25922CF9E5F00DFAE7B /* MovieListTableViewController.swift */,
 				0462C25822CF9E5F00DFAE7B /* MovieFinderC-Bridging-Header.h */,
 				0462C25B22CFAE1600DFAE7B /* MovieTableViewCell.swift */,
+				0462C25D22CFBBE600DFAE7B /* MovieDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				0496F5A422CEA6AB00DB0398 /* MovieController.m in Sources */,
 				0496F59F22CEA28500DB0398 /* Movie.m in Sources */,
 				0462C25C22CFAE1600DFAE7B /* MovieTableViewCell.swift in Sources */,
+				0462C25E22CFBBE600DFAE7B /* MovieDetailsViewController.swift in Sources */,
 				0496F59422CEA1D500DB0398 /* main.m in Sources */,
 				0496F58622CEA1D200DB0398 /* AppDelegate.m in Sources */,
 				0462C25A22CF9E5F00DFAE7B /* MovieListTableViewController.swift in Sources */,

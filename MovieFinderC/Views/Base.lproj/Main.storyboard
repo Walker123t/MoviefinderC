@@ -38,6 +38,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="166" height="193.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="SWB-ui-6w2" secondAttribute="height" multiplier="30:35" id="fy2-XI-FPM"/>
+                                                        <constraint firstAttribute="height" constant="193.5" id="tgQ-3s-fEs"/>
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ecc-mI-ZVf">
@@ -149,6 +150,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nQc-sh-kkd"/>
                     </view>
+                    <connections>
+                        <outlet property="movieImage" destination="T09-wD-gvd" id="5ol-Dn-NXQ"/>
+                        <outlet property="name" destination="FVj-2j-3pf" id="lRy-ET-8l4"/>
+                        <outlet property="overview" destination="Fob-pD-vtG" id="Ewa-Gr-y7x"/>
+                        <outlet property="rating" destination="JiL-B0-JnP" id="oD5-XO-w9R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0V8-9c-OsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
