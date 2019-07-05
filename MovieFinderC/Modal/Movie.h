@@ -11,11 +11,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Movie : NSObject
+//Properties
 @property(nonatomic, copy)NSString* title;
 @property(nonatomic, copy)NSNumber* voteAverage;
 @property(nonatomic, copy)NSString* overview;
 @property(nonatomic, copy)NSString* imagePath;
-
+//declaring initalizer
 -(instancetype)initWithMovie:(NSString *)title
                  voteAverage:(NSNumber *)voteAverage
                     overview:(NSString *)overview

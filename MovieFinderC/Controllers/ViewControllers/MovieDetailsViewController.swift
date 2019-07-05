@@ -19,7 +19,6 @@ class MovieDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateViews()
-        // Do any additional setup after loading the view.
     }
     //MARK: - Functions
     func updateViews(){

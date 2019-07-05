@@ -9,8 +9,10 @@
 #import "Movie.h"
 
 @implementation Movie
+//setting up initilizer
 - (instancetype)initWithMovie:(NSString *)title voteAverage:(NSNumber *)voteAverage overview:(NSString *)overview imagePath:(NSString *)imagePath
 {
+    //setting data
     if (self = [super init]){
         _title = title;
         _voteAverage = voteAverage;

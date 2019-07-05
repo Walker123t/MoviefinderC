@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MovieController : NSObject
+//declaring functions
 +(void)fetchMovies:(NSString *)term
         completion: (void (^) (NSArray <Movie *> *))completion;
 +(void)fetchImageFromData:(NSString *)imagePath completion:(void (^)(NSData *imageData))completion;
